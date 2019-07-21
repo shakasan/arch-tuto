@@ -2,7 +2,7 @@
 
 ## Tutorials
 
-- [Installation tutorial on Vaio SE2](install_vaio_se2.md)
+- [Installation sur Vaio SE2](install_vaio_se2.md)
 
 ## Credits
 
