@@ -635,13 +635,25 @@ Pour les package managers pip3, npm, gem, veuillez vous référer à la partie s
 
 ### Utilitaires
 
+Depuis les dépôts
+
 ```shell
-trizen -S detox network-manager-applet qt5ct qt5-styleplugins clamav clamtk grub-customizer tmsu deja-dup acetoneiso2 alltray wget curl aria2 htop bmon mc screen bleachbit bash-completion xcalib qtqr copyq woeusb etcher libgksu gksu multibootusb-git spectre-meltdown-checker dialog dosbox fcrackzip fdupes figlet flatpak gawk gksu gnome-disk-utility gnome-font-viewer gparted gsmartcontrol gtk-engine-murrine guake idle3-tools inxi less lsb-release mupdf mupdf-tools numlockx pdfcrack pdfgrep procps-ng psensor pv rarcrack screenfetch snapd synapse terminator tilda unrar zip princexml cryptkeeper pandoc s-tui stress linpack nano-syntax-highlighting-git kdocker mesa-demos odt2txt
+trizen -S detox network-manager-applet qt5ct qt5-styleplugins clamav clamtk grub-customizer deja-dup acetoneiso2 alltray wget curl aria2 htop bmon mc screen bleachbit bash-completion copyq etcher dialog dosbox fcrackzip fdupes figlet flatpak gawk gnome-disk-utility gnome-font-viewer gparted gsmartcontrol gtk-engine-murrine guake idle3-tools less lsb-release mupdf mupdf-tools numlockx pdfcrack pdfgrep procps-ng psensor pv rarcrack screenfetch synapse terminator tilda unrar zip pandoc stress mesa-demos odt2txt
 ```
+
+Depuis AUR
+
+```shell
+trizen -S tmsu xcalib qtqr woeusb libgksu gksu multibootusb-git spectre-meltdown-checker inxi snapd princexml cryptkeeper s-tui linpack nano-syntax-highlighting-git kdocker
+```
+
+Depuis NPM
 
 ```shell
 sudo npm i -g coinmon
 ```
+
+Depuis PIP
 
 ```shell
 sudo -H pip3 install tldr cheat md2pdf
