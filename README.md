@@ -5,7 +5,10 @@
 ## Tutorials
 
 - [Installation sur Vaio SE2](install_vaio_se2.md)
+- [Installation de base](base_install.md)
+- [Matériel & périphérique](matos.md)
 - [Applications](apps.md)
+- [Customization](customization.md)
 - [Dev Apps](dev.md)
 
 ## Credits
