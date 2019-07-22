@@ -1,5 +1,3 @@
-![](logo_med.png)
-
 # Archlinux Vaio
 
 Documentation personnelle sur l'installation de Archlinux sur mon laptop Vaio, basée sur le tuto de Frederic Bezies, que je remercie au passage

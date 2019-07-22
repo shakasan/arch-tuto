@@ -1,3 +1,5 @@
+![](logo_med.png)
+
 # Arch Tutorials
 
 ## Tutorials
