@@ -20,6 +20,7 @@ cfdisk /dev/sda
 ```
 
 Schéma de partition
+
 part | size | mountpoint | filesys | boot flag
 :-:|:-:|:-:|:-:|:-:
 /dev/sda1 | 521M | /boot | ext4 | oui
@@ -183,9 +184,6 @@ Server = https://repo.herecura.be/$repo/$arch
 [sergej-repo]
 Server = http://repo.p5n.pp.ru/$repo/os/$arch
 
-[sublime-text]
-Server = https://download.sublimetext.com/arch/stable/x86_64
-
 [archlinuxfr]
 SigLevel = Never
 Server = https://repo.archlinux.fr/$arch
@@ -236,7 +234,7 @@ pacman -Syy
 
 ## Redémarrer
 
-La première étape est terminée, on quite le chroot, on démonte les partitions et on reboot
+La première étape est terminée, on quite le chroot, on démonte les partitions et on reboot.
 
 ```shell
 exit
