@@ -13,10 +13,6 @@
 - [Thèmes, Icons, Dock, ...](customization.md)
 - [Dev Env/Apps](dev.md)
 
-## Anciens tutos
-
-- [Installation sur Vaio SE2](install_vaio_se2.md)
-
 ## Credits
 
 - Doc réalisée par Francois B (Makoto)
