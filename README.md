@@ -4,15 +4,23 @@
 
 ## Tutorials
 
-- [Installation sur Vaio SE2](install_vaio_se2.md)
-- [Installation de base](base_install.md)
-- [Matériel & périphérique](matos.md)
+- [Installation de base](base_install_01.md)
+- [Installation de base (suite)](base_install_02.md)
+- [Home chiffré avec ecryptfs](ecryptfs_home.md)
+- [Customisation du système](custom_install.md)
+- [Matériel & périphérique (config + apps liées)](matos.md)
 - [Applications](apps.md)
-- [Customization](customization.md)
-- [Dev Apps](dev.md)
+- [Thèmes, Icons, Dock, ...](customization.md)
+- [Dev Env/Apps](dev.md)
+
+## Anciens tutos
+
+- [Installation sur Vaio SE2](install_vaio_se2.md)
 
 ## Credits
 
-Doc réalisée par Francois B (Makoto)
+- Doc réalisée par Francois B (Makoto)
+- Certaines parties sont basées sur l'excellente documentation de [Frederic Bezies](http://frederic.bezies.free.fr/blog/)
+- Publiée sous les termes de la licence Creative Commons
 
 [![cc-by-sa](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](LICENCE.md)
