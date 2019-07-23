@@ -2,7 +2,7 @@
 
 ![archlogo](logo_med.png)
 
-Ce tutorial est à la base une doc personnelle, mais j'ai
+Ce tutorial est à la base une doc personnelle.
 
 Néanmoins, j'ai tenté autant que possible de la rédiger afin qu'elle soit utilisable par d'autres.
 
