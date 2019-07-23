@@ -86,6 +86,8 @@ pacstrap /mnt grub os-prober
 
 ## chroot dans son nouvel OS
 
+On "entre" dans son nouvel OS via la commande `chroot`
+
 ```shell
 arch-chroot /mnt
 ```
@@ -132,9 +134,9 @@ On configure le fuseau horaire pour Bruxelles
 ln -sf /usr/share/zoneinfo/Europe/Brussels /etc/localtime
 ```
 
-## Configurer grub
+## Configurer GRUB
 
-On génère la config de grub et on l'install
+On génère la config de `GRUB` et on l'install
 
 ```shell
 mkinitcpio -p linux
@@ -144,7 +146,7 @@ grub-mkconfig -o /boot/grub/grub.cfg
 
 ## Password root
 
-On modifie le mot de passe root
+On modifie le mot de passe `root`
 
 ```shell
 passwd
@@ -161,7 +163,9 @@ systemctl enable NetworkManager
 
 ## Ajout de dépôts additionnels dans Pacman
 
-**Remarque** : c'est le même principe que pour n'importe quel dépot de n'importe quelle distro, il faut **impérativement** n'ajouter que des dépots dans lesquels on a **confiance**. Et c'est idem pour les paquets AUR.
+**Remarque** : c'est le même principe que pour n'importe quel dépot de n'importe quelle distro, il faut **impérativement** n'ajouter que des dépots dans lesquels on a **confiance**.
+
+Et c'est idem pour les paquets AUR.
 
 Dans `/etc/pacman.conf`
 
