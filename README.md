@@ -1,6 +1,6 @@
-![](logo_med.png)
-
 # Arch Tutorials
+
+![archlogo](logo_med.png)
 
 Ce tutorial est à la base une doc personnelle, mais j'ai
 
