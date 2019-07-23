@@ -28,7 +28,7 @@ On install le nécessaire (CPU Intel)
 trizen -S iucode-tool intel-ucode
 ```
 
-Et on met à jour la configuration de Grub pour qu'il en tienne compte
+Et on met à jour la configuration de `GRUB` pour qu'il en tienne compte
 
 ```shell
 grub-mkconfig -o /boot/grub/grub.cfg
@@ -48,7 +48,7 @@ Et on active le firewall au boot
 sudo ufw enable
 ```
 
-Et si vous utilisez syncthing, on ouvre les ports pour celui-ci
+Et si vous utilisez `syncthing`, on ouvre les ports pour celui-ci
 
 ```shell
 sudo ufw allow syncthing
@@ -56,7 +56,7 @@ sudo ufw allow syncthing
 
 ## Unbound (cache DNS)
 
-On install
+Pour accélérer la résolution DNS, on install un cache DNS local
 
 ```shell
 trizen -S unbound
@@ -68,17 +68,18 @@ Et on active le service au boot
 sudo systemctl start unbound.service
 sudo systemctl enable unbound.service
 ```
-### .bashrc
+
+## .bashrc
 
 Dans `~/.bashrc`, on ajoute :
 
-Un theme plus sympa pour mocp
+Un theme plus sympa pour `mocp`
 
 ```shell
 alias mocp='mocp -T "darkdot_theme"'
 ```
 
-Des couleurs et un affichage plus complet de la commande `ll`
+Des couleurs et un affichage plus complet de la commande `ls`
 
 ```shell
 alias ll='ls -lah --color'
@@ -96,9 +97,9 @@ On configure `nano` comme éditeur cli par défaut
 export EDITOR=nano
 ```
 
-### Terminal par défaut
+## Terminal par défaut
 
-Nécessaire pour certaines applications comme rclonebrowser par exemple
+Nécessaire pour certaines applications comme `rclonebrowser` par exemple
 
 Dans `/etc/environment`, on ajoute
 
@@ -106,28 +107,28 @@ Dans `/etc/environment`, on ajoute
 TERMINAL=/usr/bin/mate-terminal
 ```
 
-### Numlock ON avec lightdm au boot
+## Numlock ON avec lightdm au boot
 
 Rien de plus agaçant que de ne pas avoir la touche numlock activée lorsqu'on arrive sur l'écran de connexion.
 
-Dans `/etc/lightdm/lightdm.conf`, on ajoute la ligne suivante
+Pour `lightdm`, dans `/etc/lightdm/lightdm.conf`, on ajoute la ligne suivante
 
 ```shell
 [Seat:*]
 greeter-setup-script=/usr/bin/numlockx on
 ```
 
-### Partages SMB/CIFS dans /etc/fstab
+## Partages SMB/CIFS dans /etc/fstab
 
-Exemple de configuration dans fstab pour monter automatique au boot un dossier partagé sur son NAS avec smb/cifs
+Exemple de configuration dans `/etc/fstab` pour monter automatiquement au boot un dossier partagé sur son NAS avec smb/cifs
 
 ```shell
 //<VOTRE_ADRESSE_IP>/<NOM_DU_DOSSIER_PARTAGE>     /mnt/<NOM_DU_POINT_DE_MONTAGE_LOCAL>          cifs   vers=3.0,x-systemd.automount,x-systemd.idle-timeout=1min,_netdev,credentials=/etc/smbcreds,rw,iocharset=utf8,uid=1000,gid=1000 0 0
 ```
 
-**Remarque** : le uid et le gid sont a adapter si besoin à ceux de votre utilisateur
+**Remarque** : le `uid` et le `gid` sont a adapter si besoin à ceux de votre utilisateur
 
-Et on regénère les règles systemd pour le nouveau point de montage smb/cifs
+Et on regénère les règles `systemd` pour le nouveau point de montage smb/cifs
 
 ```shell
 sudo systemctl daemon-reload
@@ -135,9 +136,9 @@ sudo systemctl restart remote-fs.target
 sudo systemctl restart local-fs.target
 ```
 
-### Environnement QT5
+## Environnement QT5
 
-Pour donner la même apparences aux applications écrites avec QT5 et GTK, on va utiliser qt5ct comme intermédiaire. Celui-ci s'ajoute dans le Panneau de configuration
+Pour donner la même apparences aux applications écrites avec `QT5` et `GTK`, on va utiliser `qt5ct` comme intermédiaire. Celui-ci s'ajoute dans le Panneau de configuration.
 
 Dans `/etc/environment`, on ajoute
 

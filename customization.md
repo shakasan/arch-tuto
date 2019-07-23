@@ -2,7 +2,7 @@
 
 ## Grub (thèmes)
 
-Pour donner un loog un peu plus sympa à grub, on install le thème
+Pour donner un look un peu plus sympa à `GRUB`, on install le thème
 
 ```shell
 trizen -S grub-themes-vimix
@@ -34,7 +34,7 @@ Ce utilitaire permet de configurer des wallpapers différents en configuration m
 
 Malheureusement, le prix à payer est la désactivation des icones sur le bureau.
 
-On install nitrogen
+On install
 
 ```shell
 trizen -S nitrogen
@@ -46,7 +46,7 @@ On l'ajoute dans les applications à démarrer lors de la session (Panneau de co
 sh -c "sleep 5; nitrogen --restore"
 ```
 
-Et on désactive la gestion des icones du bureau par Caja (MATE)
+Et on désactive la gestion des icones du bureau par `Caja` (`MATE`)
 
 ```shell
 gsettings set org.mate.background draw-background false

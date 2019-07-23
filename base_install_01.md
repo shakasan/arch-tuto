@@ -163,9 +163,7 @@ systemctl enable NetworkManager
 
 ## Ajout de dépôts additionnels dans Pacman
 
-**Remarque** : c'est le même principe que pour n'importe quel dépot de n'importe quelle distro, il faut **impérativement** n'ajouter que des dépots dans lesquels on a **confiance**.
-
-Et c'est idem pour les paquets AUR.
+**Remarque** : c'est le même principe que pour n'importe quel dépot de n'importe quelle distro, il faut **impérativement** n'ajouter que des dépots dans lesquels on a **confiance**. Et c'est idem ++ pour les paquets AUR.
 
 Dans `/etc/pacman.conf`
 

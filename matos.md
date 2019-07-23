@@ -74,7 +74,7 @@ LABEL="u2f_end"
 
 ### Ledger Nano S
 
-Et toujours idem... ^^ pour le Cold Wallet Ledger Nano S
+Et toujours idem... ^^ pour le Ledger Nano S
 
 On créer le fichier `/etc/udev/rules.d/20-hw1.rules` et on ajoute
 
@@ -93,7 +93,7 @@ SUBSYSTEMS=="usb", ATTRS{idVendor}=="2c97", ATTRS{idProduct}=="0001", MODE="0660
 
 ### Recharger les règles udev
 
-Afin que ces règles udev soit prises en compte directement :
+Afin que ces règles `udev` soit prises en compte directement :
 
 ```shell
 sudo udevadm control --reload
