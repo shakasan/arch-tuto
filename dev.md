@@ -42,22 +42,22 @@ trizen -S gulp
 sudo npm i -g @angular/cli
 ```
 
-Et utiliser yarn à la place de npm (AngularCLI >= 6)
+Et utiliser `yarn` à la place de `npm` (AngularCLI >= 6)
 
 ```shell
 ng config -g cli.packageManager yarn
 ```
 
-#### GO
-
-```shell
-trizen -S go
-```
-
-#### Ionic
+#### Ionic & Cordova
 
 ```shell
 sudo npm i -g ionic cordova
+```
+
+### GO
+
+```shell
+trizen -S go
 ```
 
 ### Lua
@@ -224,12 +224,6 @@ trizen -S notepadqq
 
 ```shell
 trizen -S pycharm-community-edition
-```
-
-### Sublime-text
-
-```shell
-trizen -S subline-text
 ```
 
 ### Visual Studio Code
