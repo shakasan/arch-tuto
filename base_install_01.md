@@ -12,8 +12,7 @@ loadkeys be-latin1
 
 ## Partitions / systèmes de fichier
 
-Partionner le disque, avec un /boot séparé.
-A adapter selon vos besoins ;)
+Partionner le disque, avec un /boot séparé (à adapter selon vos besoins ^^)
 
 ```shell
 cfdisk /dev/sda
@@ -71,11 +70,15 @@ pacstrap /mnt base base-devel pacman-contrib zip unzip p7zip vim mc alsa-utils s
 
 ## Création du fichier /etc/fstab
 
+On génère un fichier `fstab` dans `/etc/fstab` afin que nos partitions soient montées au boot correctement
+
 ```shell
 genfstab -U -p /mnt >> /mnt/etc/fstab
 ```
 
 ## Installer Grub + OS prober
+
+On install le bootloader GRUB ainsi qu'OS Prober pour ajouter automatiquement les OS présents sur d'autres disques au menu de démarrage
 
 ```shell
 pacstrap /mnt grub os-prober
