@@ -95,7 +95,13 @@ trizen -S brasero k3b xfburn
 Depuis les dépôts
 
 ```shell
-trizen -S libreoffice-still libreoffice-still-fr dia scribus marp
+trizen -S libreoffice-still libreoffice-still-fr dia scribus
+```
+
+Depuis AUR
+
+```shell
+trizen -S marp
 ```
 
 ## Web, internet
@@ -114,9 +120,13 @@ Depuis les dépôts
 trizen -S aircrack-ng ngrep networkmanager-openvpn dsniff wireshark-gtk wireshark-cli iftop iptraf-ng nethogs whois keychain x11-ssh-askpass nmap bind-tools bluez create_ap
 ```
 
-#TODO : whatismyip ?
+Depuis NPM
 
-Depuis les dépôts
+```shell
+sudo npm i -g whatismyip
+```
+
+Depuis PIP
 
 ```shell
 sudo -H pip3 install speedtest-cli
