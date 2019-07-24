@@ -62,11 +62,21 @@ trizen -S rhythmbox-{llyrics,plugin-alternative-toolbar-git,plugin-hide-git,plug
 
 ## Gimp + plugins
 
+Depuis les dépôts
+
 ```shell
-trizen -S gimp gimp-{help-fr,refocus,nufraw,plugin-fblur,plugin-gmic,plugin-lqr,plugin-wavelet-denoise,plugin-resynthesizer,plugin-refocusit,plugin-pandora,plugin-layers-to-divs,plugin-export-layers,lensfun,brushbox}
+trizen -S gimp gimp-{help-fr,refocus,nufraw,plugin-fblur,plugin-gmic,plugin-lqr,plugin-wavelet-denoise}
+```
+
+Depuis AUR
+
+```shell
+trizen -S gimp-{plugin-resynthesizer,plugin-refocusit,plugin-pandora,plugin-layers-to-divs,plugin-export-layers,lensfun,brushbox}
 ```
 
 ## eBook
+
+Depuis les dépôts
 
 ```shell
 trizen -S calibre sigil fbreader
@@ -74,11 +84,15 @@ trizen -S calibre sigil fbreader
 
 ## Graveur CD/DVD/BR
 
+Depuis les dépôts
+
 ```shell
 trizen -S brasero k3b xfburn
 ```
 
 ## Breautique
+
+Depuis les dépôts
 
 ```shell
 trizen -S libreoffice-still libreoffice-still-fr dia scribus marp
@@ -86,11 +100,15 @@ trizen -S libreoffice-still libreoffice-still-fr dia scribus marp
 
 ## Web, internet
 
+Depuis les dépôts
+
 ```shell
 trizen -S firefox firefox-i18n-fr chromium franz-bin slack-desktop thunderbird thunderbird-i18n-fr nextcloud-client insync corebird delux digikam discord-canary filezilla geary google-chrome hexchat icedtea-web links mumble teamspeak3 mypaint opera opera-ffmpeg-codecs pidgin pidgin-{libnotify,otr} purple-{facebook,plugin-pack,skypeweb} quiterss skypeforlinux-bin syncthing syncthing-gtk telegram-{desktop,qt,purple} transmission-gtk vivaldi vivaldi-ffmpeg-codecs whalebird-bin tootle birdtray megasync
 ```
 
 ## Réseau
+
+Depuis les dépôts
 
 ```shell
 trizen -S aircrack-ng ngrep networkmanager-openvpn dsniff wireshark-gtk wireshark-cli iftop iptraf-ng nethogs whois keychain x11-ssh-askpass nmap bind-tools bluez create_ap
@@ -98,11 +116,15 @@ trizen -S aircrack-ng ngrep networkmanager-openvpn dsniff wireshark-gtk wireshar
 
 #TODO : whatismyip ?
 
+Depuis les dépôts
+
 ```shell
 sudo -H pip3 install speedtest-cli
 ```
 
 ## Plugins Caja
+
+Depuis les dépôts
 
 ```shell
 trizen -S caja-{open-terminal,image-converter,sendto,share,wallpaper,xattr-tags,extensions-common}
@@ -110,19 +132,23 @@ trizen -S caja-{open-terminal,image-converter,sendto,share,wallpaper,xattr-tags,
 
 ## Nautilus + plugins
 
+Depuis les dépôts
+
 ```shell
 trizen -S nautilus nautilus-{image-converter,sendto,share}
 ```
 
 ## Thunar + plugins
 
+Depuis les dépôts
+
 ```shell
 trizen -S thunar thunar-{archive-plugin,media-tags-plugin,volman}
 ```
 
-#TODO: fix
-
 ## Wine
+
+Depuis les dépôts
 
 ```shell
 trizen -S wine winetricks playonlinux
@@ -130,11 +156,15 @@ trizen -S wine winetricks playonlinux
 
 ## CAD
 
+Depuis les dépôts
+
 ```shell
 trizen -S kicad kicad-library kicad-library-3d librecad
 ```
 
 ## jeux
+
+Depuis les dépôts
 
 ```shell
 trizen -S joyutils
@@ -142,11 +172,15 @@ trizen -S joyutils
 
 ## Gadgets
 
+Depuis les dépôts
+
 ```shell
 trizen -S no-more-secrets-git
 ```
 
 ## Perso
+
+Depuis les dépôts
 
 ```shell
 trizen -S wpfind
