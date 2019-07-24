@@ -145,4 +145,3 @@ Dans `/etc/environment`, on ajoute
 ```shell
 QT_QPA_PLATFORMTHEME=qt5ct
 ```
-

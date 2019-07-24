@@ -43,7 +43,7 @@ trizen -S quodlibet vlc mpv xsane shotwell simplescreenrecorder asunder audaciou
 Depuis AUR
 
 ```shell
-trizen -S gmusicbrowser radiotray-ng sayonara-player-git vidcutter entangle indicator-sound-switcher python2-pydbus-git gyazo green-recorder spotify xnviewmp
+trizen -S font-manager gmusicbrowser radiotray-ng sayonara-player-git vidcutter entangle indicator-sound-switcher python2-pydbus-git gyazo green-recorder spotify xnviewmp
 ```
 
 ## Rhythmbox + plugins
@@ -71,7 +71,7 @@ trizen -S gimp gimp-{help-fr,refocus,nufraw,plugin-fblur,plugin-gmic,plugin-lqr,
 Depuis AUR
 
 ```shell
-trizen -S gimp-{plugin-resynthesizer,plugin-refocusit,plugin-pandora,plugin-layers-to-divs,plugin-export-layers,lensfun,brushbox}
+trizen -S gimp-{plugin-resynthesizer,plugin-refocusit,plugin-pandora,plugin-layers-to-divs,plugin-export-layers,brushbox}
 ```
 
 ## eBook
@@ -90,7 +90,7 @@ Depuis les dépôts
 trizen -S brasero k3b xfburn
 ```
 
-## Breautique
+## Bureautique
 
 Depuis les dépôts
 
@@ -104,12 +104,18 @@ Depuis AUR
 trizen -S marp
 ```
 
-## Web, internet
+## Internet, Web
 
 Depuis les dépôts
 
 ```shell
-trizen -S firefox firefox-i18n-fr chromium franz-bin slack-desktop thunderbird thunderbird-i18n-fr nextcloud-client insync corebird delux digikam discord-canary filezilla geary google-chrome hexchat icedtea-web links mumble teamspeak3 mypaint opera opera-ffmpeg-codecs pidgin pidgin-{libnotify,otr} purple-{facebook,plugin-pack,skypeweb} quiterss skypeforlinux-bin syncthing syncthing-gtk telegram-{desktop,qt,purple} transmission-gtk vivaldi vivaldi-ffmpeg-codecs whalebird-bin tootle birdtray megasync
+trizen -S firefox firefox-i18n-fr chromium franz-bin slack-desktop thunderbird thunderbird-i18n-fr nextcloud-client digikam discord-canary filezilla geary google-chrome hexchat icedtea-web links mumble teamspeak3 mypaint opera opera-ffmpeg-codecs pidgin pidgin-{libnotify,otr} purple-{facebook,plugin-pack,skypeweb} quiterss skypeforlinux-bin syncthing syncthing-gtk telegram-{desktop,qt,purple} transmission-gtk vivaldi vivaldi-ffmpeg-codecs
+```
+
+Depuis AUR
+
+```shell
+trizen -S whalebird-bin tootle birdtray megasync insync
 ```
 
 ## Réseau
@@ -117,7 +123,7 @@ trizen -S firefox firefox-i18n-fr chromium franz-bin slack-desktop thunderbird t
 Depuis les dépôts
 
 ```shell
-trizen -S aircrack-ng ngrep networkmanager-openvpn dsniff wireshark-gtk wireshark-cli iftop iptraf-ng nethogs whois keychain x11-ssh-askpass nmap bind-tools bluez create_ap
+trizen -S aircrack-ng ngrep networkmanager-openvpn dsniff wireshark-qt wireshark-cli iftop iptraf-ng nethogs whois keychain x11-ssh-askpass nmap bind-tools bluez create_ap
 ```
 
 Depuis NPM
