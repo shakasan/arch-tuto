@@ -34,14 +34,30 @@ sudo -H pip3 install tldr cheat md2pdf
 
 ## Multimédia
 
+Depuis des dépôts
+
 ```shell
-trizen -S quodlibet vlc mpv xsane shotwell simplescreenrecorder asunder audacious audacious-plugins audacity avidemux-cli avidemux-qt blender cheese cuetools darktable banshee-git gmusicbrowser radiotray-ng sayonara-player-git vidcutter entangle peek indicator-sound-switcher gyazo shotcut flacon gpick gpicview-gtk3 python2-pydbus-git green-recorder guvcview handbrake handbrake-cli hugin inkscape kodi krita krita-plugin-gmic milkytracker mkvtoolnix-cli mkvtoolnix-gui moc openshot picard pitivi rawtherapee sayonara-player-git screenkey shntool smplayer smplayer-{skins,themes} soundconverter spotify xnviewmp
+trizen -S quodlibet vlc mpv xsane shotwell simplescreenrecorder asunder audacious audacious-plugins audacity avidemux-cli avidemux-qt blender cheese cuetools darktable peek shotcut flacon gpick gpicview-gtk3 guvcview handbrake handbrake-cli hugin inkscape kodi krita krita-plugin-gmic milkytracker mkvtoolnix-cli mkvtoolnix-gui moc openshot picard pitivi rawtherapee screenkey shntool smplayer smplayer-{skins,themes} soundconverter
+```
+
+Depuis AUR
+
+```shell
+trizen -S gmusicbrowser radiotray-ng sayonara-player-git vidcutter entangle indicator-sound-switcher python2-pydbus-git gyazo green-recorder spotify xnviewmp
 ```
 
 ## Rhythmbox + plugins
 
+Depuis les dépôts
+
 ```shell
-trizen -S rhythmbox rhythmbox-{llyrics,plugin-alternative-toolbar-git,plugin-hide-git,plugin-radio-browser-git,plugin-tray-icon-git}
+trizen -S rhythmbox
+```
+
+Depuis AUR
+
+```shell
+trizen -S rhythmbox-{llyrics,plugin-alternative-toolbar-git,plugin-hide-git,plugin-radio-browser-git,plugin-tray-icon-git}
 ```
 
 ## Gimp + plugins
