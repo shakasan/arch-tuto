@@ -53,7 +53,7 @@ SUBSYSTEM=="usb", ATTR{idVendor}=="0930", MODE="0666", OWNER="shakasan" # Toshib
 SUBSYSTEM=="usb", ATTR{idVendor}=="19d2", MODE="0666", OWNER="shakasan" # ZTE
 ```
 
-2) Ou de manière automatique, via un paquet sur AUR :
+2) Ou de manière automatique, via un paquet depuis AUR :
 
 ```shell
 trizen -S android-udev
