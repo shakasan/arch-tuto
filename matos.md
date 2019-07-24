@@ -121,7 +121,7 @@ Le nécessaire pour utiliser les cartes à puces (carde d'identité, ...)
 trizen -S pcsc-tools
 ```
 
-### Ledger Nano S
+### Ledger-Live pour Nano S
 
 On install la nouvelle application de gestion/config du wallet hardware Ledger Nano S.
 
