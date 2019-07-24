@@ -31,7 +31,7 @@ trizen -S iucode-tool intel-ucode
 Et on met à jour la configuration de `GRUB` pour qu'il en tienne compte
 
 ```shell
-grub-mkconfig -o /boot/grub/grub.cfg
+sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
 ## Firewall
@@ -42,16 +42,22 @@ On install les outis graphique/cli
 trizen -S ufw gufw
 ```
 
-Et on active le firewall au boot
-
-```shell
-sudo ufw enable
-```
-
-Et si vous utilisez `syncthing`, on ouvre les ports pour celui-ci
+Si vous utilisez `syncthing`, on ouvre les ports pour celui-ci
 
 ```shell
 sudo ufw allow syncthing
+```
+
+De même si vous faites l'install depuis une connexion SSH, on ouvre les ports SSH également. Et c'est important de le faire **avant** d'activer le firewall sous peine de se retrouver à la porte ;)
+
+```shell
+sudo ufw allow ssh
+```
+
+Et on active le firewall au boot.
+
+```shell
+sudo ufw enable
 ```
 
 ## Unbound (cache DNS)
