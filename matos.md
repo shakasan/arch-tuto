@@ -8,7 +8,9 @@ Certains périphériques USB nécessitent des règles UDEV spécifiques pour qu'
 
 Afin de pouvoir utiliser les outils du SDK Android, comme `adb` ou `fastboot`, on doit donner un accès au smartphone via USB.
 
-Manuellement, on créer le fichier `/etc/udev/rules.d/99-android.rules` et on ajoute
+Vous avez 2 possibilités :
+
+1) Manuellement, on créer le fichier `/etc/udev/rules.d/99-android.rules` et on ajoute
 
 ```shell
 SUBSYSTEM=="usb", ATTR{idVendor}=="0502", MODE="0666", OWNER="shakasan" # Acer
@@ -51,7 +53,7 @@ SUBSYSTEM=="usb", ATTR{idVendor}=="0930", MODE="0666", OWNER="shakasan" # Toshib
 SUBSYSTEM=="usb", ATTR{idVendor}=="19d2", MODE="0666", OWNER="shakasan" # ZTE
 ```
 
-Ou de manière automatique, via un paquet sur AUR :
+2) Ou de manière automatique, via un paquet sur AUR :
 
 ```shell
 trizen -S android-udev
@@ -75,6 +77,8 @@ LABEL="u2f_end"
 ### Ledger Nano S
 
 Et toujours idem... ^^ pour le Ledger Nano S
+
+**Remarque** : si vous installez Ledger Live (vois après), les règles UDEV sont installées automatiquement
 
 On créer le fichier `/etc/udev/rules.d/20-hw1.rules` et on ajoute
 
@@ -120,6 +124,10 @@ trizen -S pcsc-tools
 ### Ledger Nano S
 
 On install la nouvelle application de gestion/config du wallet hardware Ledger Nano S.
+
+**Remarque** : c'est valable pour n'importe quel dépôt tier ou AUR, il faut **toujours** vérifier minitieusement ce que vous installez. Et dans le cas de AUR, vérifier les sources. Il s'agit d'un Wallet matériel pour Crypto-monnaies, c'est d'autant plus sensible !!
+
+Depuis AUR
 
 ```shell
 trizen -S ledger-live-bin
