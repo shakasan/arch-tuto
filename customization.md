@@ -2,7 +2,7 @@
 
 ## Grub (thèmes)
 
-Pour donner un look un peu plus sympa à `GRUB`, on install le thème
+Pour donner un look un peu plus sympa à `GRUB`, on install le thème depuis AUR
 
 ```shell
 trizen -S grub-themes-vimix
@@ -14,8 +14,16 @@ Et on le configure via l'application `grub-customizer`
 
 On ajoute quelques thèmes GTK et icones
 
+Depuis les dépôts
+
 ```shell
-trizen -S numix-gtk-theme arc-{gtk-theme,icon-theme,solid-gtk-theme}
+trizen -S arc-{gtk-theme,icon-theme,solid-gtk-theme}
+```
+
+Depuis AUR
+
+```shell
+trizen -S numix-{gtk-theme-git,icon-theme-git}
 ```
 
 ## Widgets
@@ -65,7 +73,9 @@ trizen -S plank
 
 ### Docky
 
-Autre Dock léger et bien fini.
+Autre Dock léger et bien fini, mais malheureusement plus maintenu... Vous pouvez tenter ;)
+
+Depuis AUR
 
 ```shell
 trizen -S docky
