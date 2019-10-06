@@ -5,7 +5,7 @@
 Pour donner un look un peu plus sympa à `GRUB`, on install le thème depuis AUR
 
 ```shell
-trizen -S grub-themes-vimix
+trizen -S grub2-theme-vimix-git
 ```
 
 Et on le configure via l'application `grub-customizer`

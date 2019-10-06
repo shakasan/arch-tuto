@@ -27,6 +27,12 @@ wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh |
 #### Yarn
 
 ```shell
+trizen -S yarn
+```
+
+Ou bien
+
+```shell
 sudo npm i -g yarn
 ```
 
