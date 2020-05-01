@@ -247,6 +247,7 @@ trizen -S ansible ansible-lint
 ```
 
 >**Remarque** : Si vous avez une erreur concernat un module python déjà présent, désinstallez-le via pip3
+>
 >```shell
 >sudo -H pip3 uninstall cffi pycparser
 >```
@@ -264,6 +265,7 @@ trizen -S docker docker-compose
 ```
 
 > **Remarqe** : Si vous avez une erreur concernat un module python déjà présent, désinstallez-le via pip3
+>
 > ```shell
 > sudo -H pip3 uninstall docopt
 > ```
