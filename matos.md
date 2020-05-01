@@ -78,7 +78,7 @@ LABEL="u2f_end"
 
 Et toujours idem... ^^ pour le Ledger Nano S
 
-**Remarque** : si vous installez Ledger Live (vois après), les règles UDEV sont installées automatiquement
+> **Remarque** : si vous installez Ledger Live (vois après), les règles UDEV sont installées automatiquement
 
 On créer le fichier `/etc/udev/rules.d/20-hw1.rules` et on ajoute
 
@@ -125,7 +125,7 @@ trizen -S pcsc-tools
 
 On install la nouvelle application de gestion/config du wallet hardware Ledger Nano S.
 
-**Remarque** : c'est valable pour n'importe quel dépôt tier ou AUR, il faut **toujours** vérifier minitieusement ce que vous installez. Et dans le cas de AUR, vérifier les sources. Il s'agit d'un Wallet matériel pour Crypto-monnaies, c'est d'autant plus sensible !!
+> **Remarque** : c'est valable pour n'importe quel dépôt tier ou AUR, il faut **toujours** vérifier minitieusement ce que vous installez. Et dans le cas de AUR, vérifier les sources. Il s'agit d'un Wallet matériel pour Crypto-monnaies, c'est d'autant plus sensible !!
 
 Depuis AUR
 

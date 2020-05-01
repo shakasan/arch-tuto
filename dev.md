@@ -12,12 +12,6 @@ trizen -S gdb ghex jq meld
 
 ### Javascript
 
-#### NodeJS et NPM
-
-```shell
-trizen -S nodejs npm
-```
-
 #### NVM
 
 ```shell
@@ -81,7 +75,7 @@ trizen -S composer php
 ### Python
 
 ```shell
-trizen -S python-{pip,pyqt5,pipenv} tk
+trizen -S python-{pyqt5,pipenv} tk
 ```
 
 ```shell
@@ -103,7 +97,7 @@ trizen -S ruby
 Dans `~/.bashrc`, ajouter
 
 ```shell
-PATH=$PATH:~/.gem/ruby/2.5.0/bin
+PATH=$PATH:~/.gem/ruby/2.7.0/bin
 ```
 
 ## Base de données
@@ -252,18 +246,15 @@ trizen -S bluej
 trizen -S ansible ansible-lint
 ```
 
-Si vous avez une erreur concernat un module python déjà présent, désinstallez-le via pip3
-
-Dans mon cas, j'ai eu du faire
-
-```shell
-sudo -H pip3 uninstall cffi pycparser
-```
+>**Remarque** : Si vous avez une erreur concernat un module python déjà présent, désinstallez-le via pip3
+>```shell
+>sudo -H pip3 uninstall cffi pycparser
+>```
 
 ### Boostnote
 
 ```shell
-trizen -S boostnote
+trizen -S boost-note-bin
 ```
 
 ### Docker
@@ -272,13 +263,10 @@ trizen -S boostnote
 trizen -S docker docker-compose
 ```
 
-Si vous avez une erreur concernat un module python déjà présent, désinstallez-le via pip3
-
-Dans mon cas, j'ai eu du faire
-
-```shell
-sudo -H pip3 uninstall docopt
-```
+> **Remarqe** : Si vous avez une erreur concernat un module python déjà présent, désinstallez-le via pip3
+> ```shell
+> sudo -H pip3 uninstall docopt
+> ```
 
 ### git
 

@@ -4,26 +4,26 @@ L'installation de base étant terminée, passons à l'ajout des applications.
 
 Pour les package managers pip3, npm, gem, veuillez vous référer à la partie sur les outils de développement pour leur éventuelle installation.
 
-**Astuce** : si vous voulez des infos sur un paquet en particulier, en résumé `trizen -Ss <nom_du_paquet>` et en détaillé `trizen -Si <nom_du_paquet>`.
+> **Astuce** : si vous voulez des infos sur un paquet en particulier, en résumé `trizen -Ss <nom_du_paquet>` et en détaillé `trizen -Si <nom_du_paquet>`.
 
 ## Utilitaires
 
 Depuis les dépôts
 
 ```shell
-trizen -S detox network-manager-applet qt5ct qt5-styleplugins clamav clamtk grub-customizer deja-dup acetoneiso2 alltray wget curl aria2 htop bmon mc screen bleachbit bash-completion copyq etcher dialog dosbox fcrackzip fdupes figlet flatpak gawk gnome-disk-utility gnome-font-viewer gparted gsmartcontrol gtk-engine-murrine guake idle3-tools less lsb-release mupdf mupdf-tools numlockx pdfcrack pdfgrep procps-ng psensor pv rarcrack screenfetch synapse terminator tilda unrar zip pandoc stress mesa-demos odt2txt
+trizen -S detox network-manager-applet qt5ct qt5-styleplugins clamav clamtk grub-customizer deja-dup acetoneiso2 alltray wget curl aria2 htop bmon mc screen bleachbit copyq dialog dosbox fcrackzip fdupes figlet gawk gnome-disk-utility gnome-font-viewer gparted gsmartcontrol gtk-engine-murrine guake idle3-tools less lsb-release mupdf mupdf-tools numlockx pdfcrack pdfgrep procps-ng psensor pv rarcrack screenfetch synapse terminator tilda unrar zip pandoc stress mesa-demos odt2txt
 ```
 
 Depuis AUR
 
 ```shell
-trizen -S tmsu xcalib qtqr woeusb libgksu gksu multibootusb-git spectre-meltdown-checker inxi snapd princexml cryptkeeper s-tui linpack nano-syntax-highlighting-git kdocker
+trizen -S tmsu xcalib qtqr woeusb libgksu gksu multibootusb-git spectre-meltdown-checker inxi cryptkeeper s-tui linpack nano-syntax-highlighting-git kdocker etcher-git
 ```
 
 Depuis NPM
 
 ```shell
-sudo npm i -g coinmon
+npm i -g coinmon
 ```
 
 Depuis PIP
@@ -37,13 +37,13 @@ sudo -H pip3 install tldr cheat md2pdf
 Depuis des dépôts
 
 ```shell
-trizen -S quodlibet vlc mpv xsane shotwell simplescreenrecorder asunder audacious audacious-plugins audacity avidemux-cli avidemux-qt blender cheese cuetools darktable peek shotcut flacon gpick gpicview-gtk3 guvcview handbrake handbrake-cli hugin inkscape kodi krita krita-plugin-gmic milkytracker mkvtoolnix-cli mkvtoolnix-gui moc openshot picard pitivi rawtherapee screenkey shntool smplayer smplayer-{skins,themes} soundconverter
+trizen -S quodlibet vlc mpv xsane shotwell simplescreenrecorder asunder audacious audacious-plugins audacity avidemux-cli avidemux-qt blender cheese cuetools darktable peek shotcut flacon gpick gpicview-gtk3 guvcview handbrake handbrake-cli hugin inkscape kodi krita krita-plugin-gmic milkytracker mkvtoolnix-cli mkvtoolnix-gui moc openshot picard pitivi rawtherapee shntool smplayer smplayer-{skins,themes} soundconverter
 ```
 
 Depuis AUR
 
 ```shell
-trizen -S font-manager gmusicbrowser radiotray-ng sayonara-player-git vidcutter entangle indicator-sound-switcher python2-pydbus-git gyazo green-recorder spotify xnviewmp
+trizen -S font-manager gmusicbrowser radiotray-ng vidcutter entangle indicator-sound-switcher python2-pydbus-git gyazo green-recorder xnviewmp
 ```
 
 ## Rhythmbox + plugins
@@ -71,7 +71,7 @@ trizen -S gimp gimp-{help-fr,refocus,nufraw,plugin-fblur,plugin-gmic,plugin-lqr,
 Depuis AUR
 
 ```shell
-trizen -S gimp-{plugin-resynthesizer,plugin-refocusit,plugin-pandora,plugin-layers-to-divs,plugin-export-layers,brushbox}
+trizen -S gimp-{plugin-resynthesizer,plugin-refocusit,plugin-pandora,plugin-layers-to-divs,plugin-export-layers}
 ```
 
 ## eBook
@@ -98,18 +98,12 @@ Depuis les dépôts
 trizen -S libreoffice-still libreoffice-still-fr dia scribus
 ```
 
-Depuis AUR
-
-```shell
-trizen -S marp
-```
-
 ## Internet, Web
 
 Depuis les dépôts
 
 ```shell
-trizen -S firefox firefox-i18n-fr chromium franz-bin slack-desktop thunderbird thunderbird-i18n-fr nextcloud-client digikam discord-canary filezilla geary google-chrome hexchat icedtea-web links mumble teamspeak3 mypaint opera opera-ffmpeg-codecs pidgin pidgin-{libnotify,otr} purple-{facebook,plugin-pack,skypeweb} quiterss skypeforlinux-bin syncthing syncthing-gtk telegram-{desktop,qt,purple} transmission-gtk vivaldi vivaldi-ffmpeg-codecs
+trizen -S firefox firefox-i18n-fr chromium franz-bin slack-desktop thunderbird thunderbird-i18n-fr nextcloud-client digikam discord-canary filezilla geary google-chrome hexchat icedtea-web links mumble teamspeak3 mypaint opera opera-ffmpeg-codecs pidgin pidgin-{libnotify,otr} purple-{facebook,plugin-pack,skypeweb} quiterss syncthing syncthing-gtk telegram-{desktop,qt,purple} transmission-gtk vivaldi vivaldi-ffmpeg-codecs
 ```
 
 Depuis AUR
@@ -129,7 +123,7 @@ trizen -S aircrack-ng ngrep networkmanager-openvpn dsniff wireshark-qt wireshark
 Depuis NPM
 
 ```shell
-sudo npm i -g whatismyip
+npm i -g whatismyip
 ```
 
 Depuis PIP
@@ -183,12 +177,12 @@ trizen -S kicad kicad-library kicad-library-3d librecad
 Depuis les dépôts
 
 ```shell
-trizen -S joyutils
+trizen -S joyutils lutris
 ```
 
 ## Gadgets
 
-Depuis les dépôts
+Depuis AUR
 
 ```shell
 trizen -S no-more-secrets-git
@@ -196,7 +190,7 @@ trizen -S no-more-secrets-git
 
 ## Perso
 
-Depuis les dépôts
+Depuis AUR
 
 ```shell
 trizen -S wpfind

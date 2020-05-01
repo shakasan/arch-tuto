@@ -65,7 +65,7 @@ Server = http://archlinux.cu.be/$repo/os/$arch
 ## Installation des paquets de base
 
 ```shell
-pacstrap /mnt base base-devel pacman-contrib zip unzip p7zip vim mc alsa-utils syslog-ng mtools dosfstools lsb-release ntfs-3g exfat-utils
+pacstrap /mnt base base-devel pacman-contrib zip unzip p7zip vim mc alsa-utils syslog-ng mtools dosfstools lsb-release ntfs-3g exfat-utils mkinitcpio linux linux-firmware bash-completion wget
 ```
 
 ## Création du fichier /etc/fstab
@@ -163,7 +163,7 @@ systemctl enable NetworkManager
 
 ## Ajout de dépôts additionnels dans Pacman
 
-**Remarque** : c'est le même principe que pour n'importe quel dépot de n'importe quelle distro, il faut **impérativement** n'ajouter que des dépots dans lesquels on a **confiance**. Et c'est idem ++ pour les paquets AUR.
+> **Remarque** : c'est le même principe que pour n'importe quel dépot de n'importe quelle distro, il faut **impérativement** n'ajouter que des dépots dans lesquels on a **confiance**. Et c'est idem ++ pour les paquets AUR.
 
 Dans `/etc/pacman.conf`
 
@@ -205,8 +205,7 @@ On importe la clé de Archstrike
 ```shell
 pacman-key --init
 dirmngr < /dev/null
-wget https://archstrike.org/keyfile.asc
-pacman-key --add keyfile.asc
+pacman-key -r 9D5F1C051D146843CDA4858BDE64825E7CBC0D51
 pacman-key --lsign-key 9D5F1C051D146843CDA4858BDE64825E7CBC0D51
 ```
 

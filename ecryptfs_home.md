@@ -1,6 +1,6 @@
 # Répertoire home chiffré
 
-**!! Cette section nécessite des ajustement !!**
+> **!! Cette section nécessite des ajustements !!**
 
 Cette étape est optionnelle mais fortement recommandée, surtout sur un laptop.
 
@@ -10,9 +10,9 @@ Ce répertoire contient vos données, mais également des mots de passes, des cl
 
 Bref, fortement conseillé ^^
 
-**Remarque** : ne **PAS** re-démarrer avant la fin de la procédure !!
+> **Remarque** : ne **PAS** re-démarrer avant la fin de la procédure !!
 
-**Astuce** : vous pouvez alterner entre des consoles différentes via `CTRL+ALT+(F2-F6)` et revenir à la partie graphique via `CTRL+ALT+F7`
+> **Astuce** : vous pouvez alterner entre des consoles différentes via `CTRL+ALT+(F2-F6)` et revenir à la partie graphique via `CTRL+ALT+F7`
 
 
 
@@ -25,7 +25,7 @@ Donc à l'écran de connexion, faite un `CTRL+ALT+F2` et logguez-vous en `root`.
 On install le paquet nécessaire pour migrer le répertoire `home`
 
 ```shell
-trizen -S ecryptfs-utils
+trizen -S ecryptfs-utils rsync lsof
 ```
 
 On charge le module noyau nécessaire
@@ -40,7 +40,7 @@ On lance le script de migration (ça peut prendre beaucoup de temps en fonction 
 ecryptfs-migrate-home -u shakasan
 ```
 
-Si tout s'est bien déroulé, on monte puis démonte son home chiffrée pour vérifier que tout est ok.
+Si tout s'est bien déroulé, on switch de console, on se logue avec son user et on monte puis démonte son home chiffrée pour vérifier que tout est ok.
 
 ```shell
 ecryptfs-mount-private

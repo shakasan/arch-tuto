@@ -20,7 +20,7 @@ vm.swappiness=10
 
 ## Mise à jours du Microcode du CPU
 
-Cette étape est optionnelle, mais fortement recommandée (failles spectre, meltdown, ...)
+> Remarque : Cette étape est optionnelle, mais fortement recommandée (failles spectre, meltdown, ...)
 
 On install le nécessaire (CPU Intel)
 
@@ -105,7 +105,7 @@ export EDITOR=nano
 
 ## Terminal par défaut
 
-Nécessaire pour certaines applications comme `rclonebrowser` par exemple
+> **Remarque** : Nécessaire pour certaines applications comme `rclonebrowser` par exemple
 
 Dans `/etc/environment`, on ajoute
 
@@ -132,7 +132,7 @@ Exemple de configuration dans `/etc/fstab` pour monter automatiquement au boot u
 //<VOTRE_ADRESSE_IP>/<NOM_DU_DOSSIER_PARTAGE>     /mnt/<NOM_DU_POINT_DE_MONTAGE_LOCAL>          cifs   vers=3.0,x-systemd.automount,x-systemd.idle-timeout=1min,_netdev,credentials=/etc/smbcreds,rw,iocharset=utf8,uid=1000,gid=1000 0 0
 ```
 
-**Remarque** : le `uid` et le `gid` sont a adapter si besoin à ceux de votre utilisateur
+> **Remarque** : le `uid` et le `gid` sont a adapter si besoin à ceux de votre utilisateur
 
 Et on regénère les règles `systemd` pour le nouveau point de montage smb/cifs
 

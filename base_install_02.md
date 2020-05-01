@@ -53,8 +53,9 @@ On install `yaourt` ou `trizen` pour épauler `pacman` avec les 'paquets' AUR.
 
 Ce sont en fait des wrapper pour `pacman` qui ajoutent des fonctions en plus, comme la possibilité d'installer des 'paquets' depuis AUR.
 
-**Remarque 1** : utilisez de préférence `trizen` qui est plus sécurisé
-**Remarque 2** : et n'oubliez pas de lire les scripts d'installation à chaque fois, même lors de mises à jours !
+> **Remarque 1** : utilisez de préférence `trizen` qui est plus sécurisé
+
+> **Remarque 2** : et n'oubliez pas de lire les scripts d'installation à chaque fois, même lors de mises à jours !
 
 Pour `yaourt`
 
@@ -66,6 +67,7 @@ Pour `trizen`
 
 ```shell
 sudo pacman -S git
+cd /tmp
 git clone https://aur.archlinux.org/trizen.git
 cd trizen
 makepkg -si
@@ -128,8 +130,10 @@ trizen -S gst-plugins-{base,good,bad,ugly} gst-libav
 On install le serveur graphique
 
 ```shell
-trizen -S xorg-{server,xinit,apps} xf86-input-{mouse,keyboard,libinput} xdg-user-dirs
+trizen -S xorg-{server,xinit,apps} xf86-input-libinput xdg-user-dirs
 ```
+
+> Remarque : xf86-input-{mouse,keyboard} have been removed
 
 Et les pilotes graphiques (intel dans mon cas)
 
