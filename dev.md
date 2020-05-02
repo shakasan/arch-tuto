@@ -105,7 +105,7 @@ PATH=$PATH:~/.gem/ruby/2.7.0/bin
 ### MongoDB + Compass
 
 ```shell
-trizen -S mongodb mongodb-compass
+trizen -S mongodb-bin mongodb-tools-bin mongodb-compass
 ```
 
 Pour démarrer le serveur
@@ -120,7 +120,36 @@ Et si besoin, le démarrer au boot
 sudo systemctl enable mongodb.service
 ```
 
-### MySQL
+### MariaDB
+
+#### Serveur
+
+On install MariaDB
+
+```shell
+trizen -S mariadb
+sudo mariadb-install-db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
+```
+
+On démarre le service
+
+```shell
+sudo systemctl start mariadb.service
+```
+
+On effectue la post installation
+
+```shell
+sudo mysql_secure_installation
+```
+
+Et éventuellement on démarre MariaDB au boot si besoin
+
+```shell
+sudo systemctl enable mariadb.service
+```
+
+#### Client
 
 ```shell
 trizen -S mysql-workbench

@@ -11,7 +11,7 @@ Pour les package managers pip3, npm, gem, veuillez vous référer à la partie s
 Depuis les dépôts
 
 ```shell
-trizen -S detox network-manager-applet qt5ct qt5-styleplugins clamav clamtk grub-customizer deja-dup acetoneiso2 alltray wget curl aria2 htop bmon mc screen bleachbit copyq dialog dosbox fcrackzip fdupes figlet gawk gnome-disk-utility gnome-font-viewer gparted gsmartcontrol gtk-engine-murrine guake idle3-tools less lsb-release mupdf mupdf-tools numlockx pdfcrack pdfgrep procps-ng psensor pv rarcrack screenfetch synapse terminator tilda unrar zip pandoc stress mesa-demos odt2txt
+trizen -S detox network-manager-applet qt5ct qt5-styleplugins clamav clamtk grub-customizer deja-dup acetoneiso2 alltray wget curl aria2 htop bmon mc screen bleachbit copyq dialog dosbox fcrackzip fdupes figlet gawk gnome-disk-utility gnome-font-viewer gparted gsmartcontrol gtk-engine-murrine guake idle3-tools less lsb-release mupdf mupdf-tools numlockx pdfcrack pdfgrep procps-ng psensor pv rarcrack screenfetch synapse terminator tilda unrar zip pandoc stress mesa-demos odt2txt strace hwinfo evince
 ```
 
 Depuis AUR
@@ -37,13 +37,19 @@ sudo -H pip3 install tldr cheat md2pdf
 Depuis des dépôts
 
 ```shell
-trizen -S quodlibet vlc mpv xsane shotwell simplescreenrecorder asunder audacious audacious-plugins audacity avidemux-cli avidemux-qt blender cheese cuetools darktable peek shotcut flacon gpick gpicview-gtk3 guvcview handbrake handbrake-cli hugin inkscape kodi krita krita-plugin-gmic milkytracker mkvtoolnix-cli mkvtoolnix-gui moc openshot picard pitivi rawtherapee shntool smplayer smplayer-{skins,themes} soundconverter
+trizen -S quodlibet vlc mpv xsane shotwell simplescreenrecorder lib32-simplescreenrecorder asunder audacious audacious-plugins audacity avidemux-cli avidemux-qt blender cheese cuetools darktable peek shotcut flacon gpick gpicview-gtk3 guvcview handbrake handbrake-cli hugin inkscape kodi krita krita-plugin-gmic milkytracker mkvtoolnix-cli mkvtoolnix-gui moc openshot picard pitivi rawtherapee shntool smplayer smplayer-{skins,themes} soundconverter id3v2 youtube-dl mac libdvdcss
 ```
 
 Depuis AUR
 
 ```shell
 trizen -S font-manager gmusicbrowser radiotray-ng vidcutter entangle indicator-sound-switcher python2-pydbus-git gyazo green-recorder xnviewmp
+```
+
+Depuis Snap
+
+```shell
+sudo flatpak install flathub com.spotify.Client
 ```
 
 ## Rhythmbox + plugins
@@ -103,7 +109,7 @@ trizen -S libreoffice-still libreoffice-still-fr dia scribus
 Depuis les dépôts
 
 ```shell
-trizen -S firefox firefox-i18n-fr chromium franz-bin slack-desktop thunderbird thunderbird-i18n-fr nextcloud-client digikam discord-canary filezilla geary google-chrome hexchat icedtea-web links mumble teamspeak3 mypaint opera opera-ffmpeg-codecs pidgin pidgin-{libnotify,otr} purple-{facebook,plugin-pack,skypeweb} quiterss syncthing syncthing-gtk telegram-{desktop,qt,purple} transmission-gtk vivaldi vivaldi-ffmpeg-codecs
+trizen -S firefox firefox-i18n-fr chromium franz-bin slack-desktop thunderbird thunderbird-i18n-fr nextcloud-client digikam discord-canary filezilla geary google-chrome hexchat icedtea-web links mumble teamspeak3 mypaint opera opera-ffmpeg-codecs pidgin pidgin-{libnotify,otr} purple-{facebook,plugin-pack,skypeweb} quiterss syncthing syncthing-gtk telegram-{desktop,qt,purple} transmission-gtk vivaldi vivaldi-ffmpeg-codecs skypeforlinux-stable
 ```
 
 Depuis AUR
