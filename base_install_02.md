@@ -133,13 +133,23 @@ On install le serveur graphique
 trizen -S xorg-{server,xinit,apps} xf86-input-libinput xdg-user-dirs
 ```
 
-> Remarque : xf86-input-{mouse,keyboard} have been removed
+> **Remarque** : xf86-input-{mouse,keyboard} have been removed
 
-Et les pilotes graphiques (intel dans mon cas)
+### Les pilotes graphiques
+
+#### Intel
 
 ```shell
 trizen -S xf86-video-intel
 ```
+
+#### Radeon
+
+```shell
+trizen -S xf86-video-ati
+```
+
+> **Remarque** : selon GPU AMD/ATI, il faut choisir entre xf86-video-ati ou xf86-video-amdgpu
 
 ## Polices de caractères
 

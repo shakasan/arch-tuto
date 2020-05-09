@@ -186,6 +186,9 @@ Depuis les dépôts
 trizen -S joyutils lutris
 ```
 
+> **Remarque** : voir la partie 2 de l'installation de base pour les pilotes graphiques
+> **Remarque 2** : voir la partie Matériel pour l'installation de Vulkan
+
 ## Gadgets
 
 Depuis AUR

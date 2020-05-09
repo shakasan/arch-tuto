@@ -132,3 +132,13 @@ Depuis AUR
 ```shell
 trizen -S ledger-live-bin
 ```
+
+## Vulkan
+
+Certaines applications comme Lutris nécessite Vulkan pour fonctionner.
+
+### Radeon (pilote ATI/Radeon)
+
+```shell
+trizen -S lib32-mesa vulkan-radeon lib32-vulkan-radeon vulkan-icd-loader lib32-vulkan-icd-loader
+```
