@@ -54,7 +54,6 @@ On install `yaourt` ou `trizen` pour épauler `pacman` avec les 'paquets' AUR.
 Ce sont en fait des wrapper pour `pacman` qui ajoutent des fonctions en plus, comme la possibilité d'installer des 'paquets' depuis AUR.
 
 > **Remarque 1** : utilisez de préférence `trizen` qui est plus sécurisé
-
 > **Remarque 2** : et n'oubliez pas de lire les scripts d'installation à chaque fois, même lors de mises à jours !
 
 Pour `yaourt`

@@ -46,7 +46,7 @@ Depuis AUR
 trizen -S font-manager gmusicbrowser radiotray-ng vidcutter entangle indicator-sound-switcher python2-pydbus-git gyazo green-recorder xnviewmp
 ```
 
-Depuis Snap
+Depuis Flatpak
 
 ```shell
 sudo flatpak install flathub com.spotify.Client

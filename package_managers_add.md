@@ -12,6 +12,8 @@ trizen -S flatpak
 trizen -S snapd
 ```
 
+> **Remarque** : Snap fonctionne avec un Store centralisé et géré par Canonical. D'un point de vue d'un libriste, je vous conseil fortement d'éviter autant que possible et privilégier AUR ou Flatpak.
+
 ## NodeJS et NPM
 
 On install NodeJS + le package manager NodeJS
