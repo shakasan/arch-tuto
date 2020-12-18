@@ -38,7 +38,7 @@ trizen -S conky-manager conky
 
 ### Nitrogen
 
-Ce utilitaire permet de configurer des wallpapers différents en configuration multi-écran OU de configurer un wallpaper couvrant l'ensemble de ceux-ci.
+Cet utilitaire permet de configurer des wallpapers différents en configuration multi-écran OU de configurer un wallpaper couvrant l'ensemble de ceux-ci.
 
 Malheureusement, le prix à payer est la désactivation des icones sur le bureau.
 
