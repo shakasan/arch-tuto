@@ -2,6 +2,8 @@
 
 ![archlogo](logo_med.png)
 
+> **Remarque** : cette doc n'est plus mise à jours depuis un bon moment !
+
 Ce tutorial est à la base une doc personnelle.
 
 Néanmoins, j'ai tenté autant que possible de la rédiger afin qu'elle soit utilisable par d'autres.
